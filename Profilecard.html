@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<style>
+   
+    .content{
+            position: relative;
+            display: inline-block;
+            width: 400px;             
+            height: 500px;
+            margin:100px;
+            margin-left: 600px;            
+            padding: 50px;
+            outline: double rgb(191, 45, 213);
+            outline-offset: 40;
+            box-shadow: 10px 40px 4px rgb(170, 220, 78);
+            border: 2px solid #333;   
+            border-radius: 8px;
+            background-color: 	#232b2b;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .donkey{
+        width: 100px;
+        background: #728c90;
+        padding:15px;
+        border-radius: 50% ;
+        box-shadow: 3px 1px 2px rgb(210, 165, 82);
+        margin: 100px;
+        position: relative;
+        z-index: 10;
+    }
+    .top{
+        
+        background-image: url("background.jpg") ;
+        background-repeat:no-repeat;
+        position: absolute;
+        padding: 40px;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+        
+        width: 450px;
+        height: 200px;
+        
+     
+    }
+.nut{
+    position:relative;
+    color:white;
+    align-content: center;
+    background-color: rgb(96, 144, 28);
+    padding: 10px ;
+    bottom:50px;
+    width: 200px;
+    border-radius: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.words{
+
+   position: relative;
+   bottom: 90px;
+   color: antiquewhite;
+   font-variant: small-caps;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.words h1::before{
+    content: "X_X";    
+    font-size: x-small;
+}
+.words h1:after{
+    content:"X_X";
+    font-size: x-small;
+}
+
+
+.nut:hover{
+     background-color: aquamarine;
+
+}
+    
+</style>
+<body>
+    <div class="content">
+            <img src="donkey.jpg" class="donkey">
+        <div class="top">
+
+        </div>
+        <div class="words">
+            <h1>Ashish Tamang</h1>
+            <h3> Looking for some cool stuff like this then follow me</h3>
+        </div>
+        <div class="btn">
+              <a href="follow.html" >  <input type="button" class="nut" value="Follow me" ></a>
+        </div>
+        
+       
+        
+    </div>
+</body>
+</html>
