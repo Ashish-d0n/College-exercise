@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card design</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+        .main{
+            position: relative;
+            border-radius: 14px;
+            border: 1px solid black;
+            width: 23vw;
+            height: 75vh;
+            z-index: 1;
+        }
+        .image img{
+            position: absolute;
+            width: 305px;
+            height: 200px;
+            border-radius: 14px;
+            
+            
+            padding: 4px;           
+        }
+        .font1{
+            margin:220px 25px 20px ;
+        }
+        .font1 h2{
+            display: inline-flex;
+            justify-content: space-evenly;
+            font-style: bold;
+            color:  #a7a7a7;
+            text-align: center;
+            border: 1px solid black;
+            border-radius: 12px;
+            padding: 2px;
+
+            width: 40px;
+            font-size: xx-small;
+        }
+        .field{
+            margin:0px 15px 10px;
+        }
+        .field h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .field p{
+                font-size: large;
+                color: #a7a7a7;
+
+        }
+        .btn .eh {
+                margin: 15px 40px;
+                padding: 15px;
+                font-style:bold;
+                color: rgb(19, 145, 235);
+                border: cadetblue;
+                width: 120px;
+                background-color: #cae5f3;
+                border-radius: 25px;
+        }
+        .eh :hover{
+            color: black;
+        }
+        .eh:active{
+            color: white;
+        }
+</style>
+<body>
+        <div class="main">
+            <div class="image">
+                <img src="lake.jpg" alt="Lake">
+            </div>
+            <div class="font1">
+             
+                <h2>Nature</h2>
+               <h2>Lake</h2> 
+            </div>
+            <div class="field">
+                <h1><b>Lagos di Braires</b></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At animi sint fuga doloribus hic provident quae ullam nulla culpa ipsam?</p>
+            </div>
+            <div class="btn">
+                <a href="readmore.html" class="eh"><input type="button" class="eh" value="Read more"></a>
+            </div>
+        </div>
+</body>
+</html>
